@@ -9,13 +9,8 @@ poetry install
 poetry shell
 ```
 
-By default, we use the OpenAI LLM (though you can customize, see app/api/routers/chat.py). As a result you need to specify an `OPENAI_API_KEY` in an .env file in this directory.
+The LLM, Vector Store and other comfigurations can be found in config.yml and reflect those used in the RAG application for which this UI is a companion. 
 
-Example `backend/.env` file:
-
-```
-OPENAI_API_KEY=<openai_api_key>
-```
 
 Second, run the development server:
 
