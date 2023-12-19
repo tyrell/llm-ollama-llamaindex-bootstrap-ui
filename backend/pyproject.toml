@@ -2,7 +2,7 @@
 name = "llamaindex-fastapi-streaming"
 version = "0.1.0"
 description = ""
-authors = ["Marcus Schiesser <mail@marcusschiesser.de>"]
+authors = ["Tyrell Perera"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
